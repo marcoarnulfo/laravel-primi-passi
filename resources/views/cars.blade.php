@@ -19,7 +19,7 @@
         </nav>
     </header>
     <main>
-        <h1>{{$page_title}}</h1>
+        <h1>{{$page_title}} </h1>
         <ul>
             @foreach($cars as $car)
             <li>{{$car}}</li>
